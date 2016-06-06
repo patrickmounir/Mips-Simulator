@@ -1,0 +1,7 @@
+add $s1,$0,$0
+label:beq $at,$0,exit
+sub $at,$at,$ra
+add $v1,$0,$0
+add $s1,$s1,$ra
+j label
+exit:add $v1,$0,$0
