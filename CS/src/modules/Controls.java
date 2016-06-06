@@ -1,0 +1,5 @@
+package modules;
+
+public enum Controls {
+	REG_WRITE,REG_DST,BRANCH,JUMP,MEM_READ,MEM_TO_REG,ADD,SUB,AND,OR,SLT,MEM_WRITE,ALU_SRC
+}
